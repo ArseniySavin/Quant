@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Server=hqw6001;Database=Quant;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models --project "C:\Users\ASavin\source\repos\Quant\Quant.DB.CLI"

@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubQueueWithReply", "Examples\Queue\PubQueueWithReply\PubQueueWithReply.csproj", "{7ABA3301-BC81-4691-9907-E0AE8A7E16AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubQueueWithReply", "Examples\Queue\SubQueueWithReply\SubQueueWithReply.csproj", "{86487B1B-C160-4F7D-9B64-7FE64021DE88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quant", "Quant\Quant.csproj", "{C9B5E3A4-AB5F-431F-A0E4-B21950DE97FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{EB10A21A-3B63-48F1-86C6-6329E3124BF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubQueue", "Examples\Queue\SubQueue\SubQueue.csproj", "{93427EFB-2BA6-4513-BEF5-7D96ED7F3557}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E9B2E7F-C89C-4AC1-A2BF-FD08B764ED0C}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{1A9102D7-F08B-4619-832B-D89BD276B810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{F0EFF22A-1E51-4091-9E79-C5B17CA43C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Durable", "Durable", "{5C9E8F33-712F-44CE-B23B-803AA1509F84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubDurableWithReply", "Examples\Durable\PubDurableWithReply\PubDurableWithReply.csproj", "{3EE3B40B-DB1A-421C-BF06-248A605DFAC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubDurableWithReply", "Examples\Durable\SubDurableWithReply\SubDurableWithReply.csproj", "{D0377797-54EB-48F5-B35B-66BDD6AD5EF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quant.DB.CLI", "Quant.DB.CLI\Quant.DB.CLI.csproj", "{326C3FD5-B193-40A6-92BD-2E16A8FEC9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubDurableWithAwait", "PubDurableWithAwait\PubDurableWithAwait.csproj", "{BC0BA309-53C8-4B10-9B89-E1587D45E9CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ABA3301-BC81-4691-9907-E0AE8A7E16AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABA3301-BC81-4691-9907-E0AE8A7E16AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABA3301-BC81-4691-9907-E0AE8A7E16AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABA3301-BC81-4691-9907-E0AE8A7E16AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86487B1B-C160-4F7D-9B64-7FE64021DE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86487B1B-C160-4F7D-9B64-7FE64021DE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86487B1B-C160-4F7D-9B64-7FE64021DE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86487B1B-C160-4F7D-9B64-7FE64021DE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B5E3A4-AB5F-431F-A0E4-B21950DE97FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B5E3A4-AB5F-431F-A0E4-B21950DE97FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B5E3A4-AB5F-431F-A0E4-B21950DE97FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B5E3A4-AB5F-431F-A0E4-B21950DE97FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB10A21A-3B63-48F1-86C6-6329E3124BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB10A21A-3B63-48F1-86C6-6329E3124BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB10A21A-3B63-48F1-86C6-6329E3124BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB10A21A-3B63-48F1-86C6-6329E3124BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93427EFB-2BA6-4513-BEF5-7D96ED7F3557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93427EFB-2BA6-4513-BEF5-7D96ED7F3557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93427EFB-2BA6-4513-BEF5-7D96ED7F3557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93427EFB-2BA6-4513-BEF5-7D96ED7F3557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE3B40B-DB1A-421C-BF06-248A605DFAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE3B40B-DB1A-421C-BF06-248A605DFAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE3B40B-DB1A-421C-BF06-248A605DFAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE3B40B-DB1A-421C-BF06-248A605DFAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0377797-54EB-48F5-B35B-66BDD6AD5EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0377797-54EB-48F5-B35B-66BDD6AD5EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0377797-54EB-48F5-B35B-66BDD6AD5EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0377797-54EB-48F5-B35B-66BDD6AD5EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326C3FD5-B193-40A6-92BD-2E16A8FEC9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326C3FD5-B193-40A6-92BD-2E16A8FEC9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326C3FD5-B193-40A6-92BD-2E16A8FEC9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326C3FD5-B193-40A6-92BD-2E16A8FEC9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0BA309-53C8-4B10-9B89-E1587D45E9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0BA309-53C8-4B10-9B89-E1587D45E9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0BA309-53C8-4B10-9B89-E1587D45E9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0BA309-53C8-4B10-9B89-E1587D45E9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ABA3301-BC81-4691-9907-E0AE8A7E16AA} = {F0EFF22A-1E51-4091-9E79-C5B17CA43C9E}
+		{86487B1B-C160-4F7D-9B64-7FE64021DE88} = {F0EFF22A-1E51-4091-9E79-C5B17CA43C9E}
+		{93427EFB-2BA6-4513-BEF5-7D96ED7F3557} = {F0EFF22A-1E51-4091-9E79-C5B17CA43C9E}
+		{F0EFF22A-1E51-4091-9E79-C5B17CA43C9E} = {1A9102D7-F08B-4619-832B-D89BD276B810}
+		{5C9E8F33-712F-44CE-B23B-803AA1509F84} = {1A9102D7-F08B-4619-832B-D89BD276B810}
+		{3EE3B40B-DB1A-421C-BF06-248A605DFAC6} = {5C9E8F33-712F-44CE-B23B-803AA1509F84}
+		{D0377797-54EB-48F5-B35B-66BDD6AD5EF5} = {5C9E8F33-712F-44CE-B23B-803AA1509F84}
+		{BC0BA309-53C8-4B10-9B89-E1587D45E9CE} = {5C9E8F33-712F-44CE-B23B-803AA1509F84}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32D2EA5E-2EBC-4FC4-A168-6175064F8ACD}
+	EndGlobalSection
+EndGlobal
